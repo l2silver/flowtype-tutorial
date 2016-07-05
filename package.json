@@ -1,0 +1,25 @@
+{
+  "name": "flowtype-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreVarandas/flowtype-tutorial.git"
+  },
+  "keywords": [],
+  "author": "André varandas <contact@andrevarandas.com> (http://andrevarandas.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreVarandas/flowtype-tutorial/issues"
+  },
+  "homepage": "https://github.com/AndreVarandas/flowtype-tutorial#readme",
+  "devDependencies": {
+    "babel-plugin-transform-flow-strip-types": "6.8.0",
+    "flow-bin": "0.28.0"
+  }
+}
